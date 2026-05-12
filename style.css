@@ -1,0 +1,33 @@
+:root{
+
+    --color-primario:#76a3dd;
+    --color-secundario: #ffffff;
+    --color-ascento: #007BFF;
+    --color-texto: #333333;
+    --color-fondo-suave: rgb(0, 153, 255);
+    --transicion: all 0.3s ease;
+
+}
+*{
+    margin:0;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Segoe UI', Roboto  , Helvetica,Arial, sans-serif;
+    Line-height: 1.6;
+    color: var(--color-texto);
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-secundario);
+}
+header {
+    background: var(--color-primario);
+    box-shadow: 0 2px 10px rgba(0,0,0,0,.1);
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+
+}
